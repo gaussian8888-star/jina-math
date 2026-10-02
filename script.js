@@ -15,7 +15,7 @@ nav.querySelectorAll('a').forEach(a =>
 // 상담 신청 폼
 // 지금은 화면에서만 접수 확인을 보여 주는 데모입니다.
 // 3주차 과제에서 아래 SEND_URL에 실제 접수 주소(알림 연결)를 넣어 연결합니다.
-const SEND_URL = ''; // 예: '/api/inquiry'
+const SEND_URL = '/api/inquiry'; // 예: '/api/inquiry'
 const form = document.getElementById('inquiry');
 const msg = document.getElementById('form-msg');
 
